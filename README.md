@@ -3,15 +3,18 @@ Programming Techniques Major Project - Java
 Spring Semester
 Programming Techniques Distinction
 Task
+
 Create a system application for an air conditioning business.
 The project requirements were to design an object
 orientated Java program to
 assist the air conditioning business keep records of repair, service and
 installation.
+
 Upon execution, the program had to read data into arrays from 3 main files A
 customer, booking and service file. The program also had to be able to handle
 files with null values and different data types (int, float, doubles) from the text
 file.
+
 The program then had to give the user the ability to interact with the data in
 the arrays and display the items in a meaningful way i.e.
 •
