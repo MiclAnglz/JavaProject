@@ -19,6 +19,7 @@ The program then had to give the user the ability to interact with the data in
 the arrays and display the items in a meaningful way i.e.
 
 • Allow the user to display customer booking
+
 • Allow the user to change customer bookings and set fees
 • Allow the user to display the customers service history, price of the service,
 date, customer id and name
