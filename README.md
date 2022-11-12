@@ -66,3 +66,11 @@ from the other
 <strong>Additional Features:</strong>
 
 - Before exiting the program, the program will only ask give the option to save the information if changes were made to the file, if changes were not made it will terminate without displaying the save feature.
+
+<strong>Changes made:</strong>
+<img width="267" alt="image" src="https://user-images.githubusercontent.com/103421610/201495875-8036f685-2761-4fe9-ac74-38ebf720d409.png">
+
+<strong>No changes made:</strong>
+<img width="270" alt="image" src="https://user-images.githubusercontent.com/103421610/201495916-f9195cc0-7965-47f4-ae71-f76c19eb038f.png">
+
+
