@@ -41,10 +41,13 @@ the arrays and display the items in a meaningful way i.e.
 • Allow the user to display the customers service history, price of the service,
 date, customer id and name
 
-• Allow the user to apply discounts based on the customer's request. The
-program was to accept a value from the customer and if that value was
+• Allow the user to apply discounts based on the customer's request. 
+   
+   <strong>Functionality:</strong>
+   
+  - Accept a value from the customer. If that value was
 greater than 10% of the service cost; the total amount of the service was to
-remain If the value was 10% or less then the program was to accept and
+remain. If the value was 10% or less, then the program was to accept and
 update the value in the program and write the update into the booking text
 file
 
@@ -52,13 +55,15 @@ file
 description)
 
 • Allow the user to search customer information by surname and phone
-number. Many customers on the customer text file also had the same name.
-The program had to be designed to present all customers with the same
+number. 
+
+Many customers on the customer text file also had the same name.
+The program had to present all customers with the same
 name on the file and display the information that would differentiate one
 from the other
 
 • Allow the user to save or cancel changes made to text file
-Note: The meta data were on separate files (e.g. customer id, name from the
-customer file, part number from the service, the price, and description). This
+
+Note: The meta data are on separate files (e.g. customer id, customer name, the part number of the service, the price from the service and the description of the service). This
 was quite challenging as there were numerous ways to program the
 requirements.
