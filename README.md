@@ -1,6 +1,6 @@
 <strong>Special notes:</strong>
 
-- This program is run completely from the console. 
+- This program is run completely from the console. To start the program follow the nex three steps.
   
   1) You will first be presented with a welcome menu. Enter "1" to start the program. (see picture below)
   
