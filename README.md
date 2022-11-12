@@ -5,7 +5,7 @@ Programming Techniques Major Project - Java
 Spring Semester
 Programming Techniques 
 
-<strong>Task:</strong>Create a system application for an air conditioning business.
+<strong>Task: </strong>Create a system application for an air conditioning business.
 The project requirements were to design an object
 orientated Java program to
 assist the air conditioning business keep records of repair, service and
