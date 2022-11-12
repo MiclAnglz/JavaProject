@@ -1,6 +1,12 @@
 <strong>Special notes:</strong>
 
-A more detailed description of the task can be found in the "projectBrief" folder. 
+- This program is run completely from the console. 
+  
+  
+  <img width="176" alt="image" src="https://user-images.githubusercontent.com/103421610/201460154-578fdce4-118c-4737-a448-48a21aeef90b.png">
+
+
+- A more detailed description of the task can be found in the "projectBrief" folder. 
 
 # Java Project 
 <h4>(My First Major Coding Project)</h4>
