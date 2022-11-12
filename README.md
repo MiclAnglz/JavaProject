@@ -57,7 +57,7 @@ description)
 • Allow the user to search customer information by surname and phone
 number. 
 
-Many customers on the customer text file also had the same name.
+<strong>note: </strong>Many customers on the customer text file also had the same name.
 The program had to present all customers with the same
 name on the file and display the information that would differentiate one
 from the other
