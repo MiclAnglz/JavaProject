@@ -48,7 +48,7 @@ date, customer id and name
   - Accept a value from the customer. If that value is
 greater than 10% of the service cost, the total amount of the service is to
 remain. If the value is 10% or less, then the program was to accept, update and save the information 
-into the booking text file
+into the booking text file.
 
 • Allow the user to display full details of a service (service id , price and
 description)
