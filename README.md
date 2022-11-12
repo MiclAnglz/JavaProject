@@ -61,5 +61,5 @@ The program had to present all customers with the same
 name on the file and display the information that would differentiate one
 from the other
 
-• Allow the user to save or cancel changes made to text file
+• Allow the user to save or cancel changes made to text file.
  
