@@ -1,3 +1,7 @@
+Special notes:
+
+A more details description of the task can be found in the "projectBrief" folder
+
 # Java Project 
 <h4>(My First Major Coding Project)</h4>
 Programming Techniques Major Project - Java
