@@ -43,7 +43,7 @@ date, customer id and name
 
 • Allow the user to apply discounts based on the customer's request. 
    
-   <strong>Functionality:</strong>
+   <strong>How?</strong>
    
   - Accept a value from the customer. If that value was
 greater than 10% of the service cost; the total amount of the service was to
