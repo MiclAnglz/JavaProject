@@ -65,4 +65,4 @@ from the other
  
 <strong>Additional Features:</strong>
 
-- Before exiting the program, it will only ask give the option to save the information if changes were made to the file, if changes were not made it will terminate will out displaying the save feature.
+- Before exiting the program, the program will only ask give the option to save the information if changes were made to the file, if changes were not made it will terminate without displaying the save feature.
