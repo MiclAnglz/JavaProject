@@ -53,7 +53,7 @@ into the booking text file.
 • Allow the user to display full details of a service (service id , price and
 description)
 
-• Allow the user to search customer information by surname and phone
+• Allow the user to search customer information by surname or mobile
 number. 
 
 <strong>note: </strong>Many customers on the customer text file also had the same name.
