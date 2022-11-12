@@ -27,10 +27,9 @@ orientated Java program to
 assist the business in keeping records of repair, service and
 installation.
 
-Upon execution, the program had to read data into arrays from 3 main files A
-customer, booking and service file. The program also had to handle
-files with null values and different data types (int, float, doubles) from the text
-file.
+Upon execution, the program had to read data into arrays from 3 main files - a
+customer file, a booking file and a service file. The program also had to handle
+files with null values and different data types (int, float, doubles).
 
 The program then had to give the user the ability to interact with the data in
 the arrays and display the items in a meaningful way i.e.
