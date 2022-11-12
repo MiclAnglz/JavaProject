@@ -1,4 +1,4 @@
-# JavaProject (My First Major Coding Project)
+# Java Project (My First Major Coding Project)
 Programming Techniques Major Project - Java
 Spring Semester
 Programming Techniques Distinction
