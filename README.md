@@ -63,7 +63,4 @@ name on the file and display the information that would differentiate one
 from the other
 
 • Allow the user to save or cancel changes made to text file
-
-Note: The meta data are on separate files (e.g. customer id, customer name, the part number of the service, the price from the service and the description of the service). This
-was quite challenging as there were numerous ways to program the
-requirements.
+ 
