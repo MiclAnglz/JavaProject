@@ -1,4 +1,4 @@
-Special notes:
+<strong>Special notes:</strong>
 
 A more details description of the task can be found in the "projectBrief" folder
 
