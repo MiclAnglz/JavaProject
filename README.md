@@ -28,7 +28,7 @@ assist a fictitious air conditioning business keep records of repair, service an
 installation.
 
 Upon execution, the program had to read data into arrays from 3 main files A
-customer, booking and service file. The program also had to be able to handle
+customer, booking and service file. The program also had to handle
 files with null values and different data types (int, float, doubles) from the text
 file.
 
