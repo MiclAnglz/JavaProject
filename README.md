@@ -1,9 +1,11 @@
 # Java Project 
 <h4>(My First Major Coding Project)</h4>
 Programming Techniques Major Project - Java
+
 Spring Semester
-Programming Techniques Distinction
-Task
+Programming Techniques 
+
+<strong>Task</strong>
 
 Create a system application for an air conditioning business.
 The project requirements were to design an object
