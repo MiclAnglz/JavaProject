@@ -12,7 +12,7 @@
   
   <img width="178" alt="image" src="https://user-images.githubusercontent.com/103421610/201460423-035506c2-6c5a-4f27-995c-fa6ce871a5eb.png">
 
-- A more detailed description of the task can be found in the "ProjectBrief" folder. 
+- A more detailed description of the project tasks can be found in the "ProjectBrief" folder. 
 
 # Java Project 
 <h4>(My First Major Coding Project)</h4>
