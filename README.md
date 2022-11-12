@@ -1,16 +1,14 @@
 <strong>Special notes:</strong>
 
-- This program is run completely from the console. To start the program follow the nex three steps.
+- This program is run completely from the console. To start the program follow the next 2 steps.
   
   1) You will first be presented with a welcome menu. Enter "1" to start the program. (see picture below)
   
   <img width="176" alt="image" src="https://user-images.githubusercontent.com/103421610/201460154-578fdce4-118c-4737-a448-48a21aeef90b.png">
   
-  2) You will then prompted too enter a bookings file to be processed. Choose from the .txt files in the projects folder. (as below)
+  2) You will then prompted to enter a "bookings file" to be processed. Choose from the .txt files in the projects folder and enter the file name. (as below)
   
   <img width="113" alt="image" src="https://user-images.githubusercontent.com/103421610/201460356-a8f6ef3b-622a-4d95-b8b7-599f1203df50.png">
-  
-  3) enter date
   
   <img width="178" alt="image" src="https://user-images.githubusercontent.com/103421610/201460423-035506c2-6c5a-4f27-995c-fa6ce871a5eb.png">
 
