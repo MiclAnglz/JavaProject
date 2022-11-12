@@ -1,6 +1,6 @@
 <strong>Special notes:</strong>
 
-- This program runs completely from the console. To start the program follow the next 2 steps.
+- This program runs completely from the Eclipse console. To start the program follow the next 2 steps.
   
   1) You will first be presented with a welcome menu. Enter "1" to start the program. (see picture below)
   
@@ -27,9 +27,9 @@ orientated Java program to
 assist the business in keeping records of repair, service and
 installation.
 
-Upon execution, the program had to read data into arrays from 3 main files - a
+Upon execution, the program has to read data into arrays from 3 main files - a
 customer file, a booking file and a service file. The program also had to handle
-files with null values and different data types (int, float, doubles).
+files with null values and different data types (int, float, doubles), as they crash the program if not processed correctly.
 
 The program then had to give the user the ability to interact with the data in
 the arrays and display the items in a meaningful way i.e.
@@ -47,7 +47,7 @@ date, customer id and name
    
   - Accept a value from the customer. If that value is
 greater than 10% of the service cost, the total amount of the service is to
-remain. If the value is 10% or less, then the program was to accept, update and save the information 
+remain. If the value is 10% or less, then the program is to accept, update and save the information 
 into the booking text file.
 
 • Allow the user to display full details of a service (service id , price and
@@ -63,3 +63,6 @@ from the other
 
 • Allow the user to save or cancel changes made to text file.
  
+<strong>Additional Features:</strong>
+
+- Before exiting the program, it will only ask give the option to save the information if changes were made to the file, if changes were not made it will terminate will out displaying the save feature.
