@@ -244,7 +244,7 @@ class CACSRecordsDemo {
 		customerDetials.setcIndex(c_Index);
 		System.out.println(customerFile.get(c_Index).toString());
 		
-		//serach and display for the service details.
+		//search and display for the service details.
 		temp = tempArray(serviceFile, bookingsList, customerFile, Menu.TWO);
 		searchServiceCodes(temp, bookingsList, serviceFile, b_Index);
 		
@@ -485,6 +485,12 @@ class CACSRecordsDemo {
 		//this codes displays a menu and stores the users input into the choice variable.
 		choice = m.requestMenuChoice("**** Welcome to the CACS database ****\n\nPress 1: Process Booking file\nPress 2: Exit program\n\nYour selection: ");		
 		
+		while (choice > Menu.TWO || choice < Menu.ONE) {
+			
+			System.out.println("\n** Incorrect input. You must enter either the number 1 or 2**");
+			
+			choice = m.requestMenuChoice("\n**** Welcome to the CACS database ****\n\nPress 1: Process Booking file\nPress 2: Exit program\n\nYour selection: ");	
+		}
 		
 		//the following codes will execute while variable choice is not equal to 2. once the user enter 2 the program will terminate
 		while (choice != Menu.TWO) {	
@@ -533,6 +539,13 @@ class CACSRecordsDemo {
 						 */
 						m.submenu(choice);
 						
+						while(m.getSubMenuOption() == Menu.THREE || m.getSubMenuOption() == Menu.TWO) {
+							
+							System.out.println("\n** You must 'Display Booking Detail (option 1)' before setting a fee or changing dates **");
+							
+							m.submenu(choice);
+						}
+						
 						// the following code will continue to execute until the field variable getSubMenuOption is not equal to four.
 						while(m.getSubMenuOption() != Menu.FOUR){
 							
@@ -557,6 +570,7 @@ class CACSRecordsDemo {
 								str1 = Dates.requstDate(m);
 								bookingsList.get(bookingDetails.getbIndex()).setDate(str1);
 								displayModified(customerFile, serviceFile, bookingsList, temp, bookingDetails, customerDetials);
+								noMatch = false;
 								
 							}
 							
@@ -574,6 +588,7 @@ class CACSRecordsDemo {
 									 */
 									tenPercent = m.requestFloat("\nEnter ammount: ");
 									valAndsetD = validateTrue(bookingsList, bookingDetails, tenPercent, f);
+									noMatch = false;
 								
 							}
 							

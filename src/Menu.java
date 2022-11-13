@@ -17,7 +17,8 @@ public class Menu {
 	
 	private String fileName;									//stores the file name used to save changes to the bookingslist
 	private int option;											//stores the menu option chosen by the user
-	private int inuptOption;									//stores the input option chosen by the user
+	private int inuptOption;
+	private float finput;//stores the input option chosen by the user
 	private boolean terminate;									//flags that the user wishes to terminate the program
 	private int bookingsOption;									//Stores the menu option for the bookings menu
 	private FileProcessing fP = new FileProcessing ();
@@ -153,7 +154,7 @@ public class Menu {
 				
 				kb.next();
 				
-				System.out.println("\n** Incorrect input. You must enter a whole number **\n");
+				System.out.println("\n** Incorrect input. You must enter a whole number **");
 				
 			}
 			
@@ -168,9 +169,26 @@ public class Menu {
 	public float requestFloat(String m) {
 		
 		Scanner kb = new Scanner (System.in);
-		System.out.print(m);
-		return this.modifiedPrice = kb.nextFloat();	 
+		boolean error = true;
+		
+		while(error == true) {
+			
+			try {
 				
+				System.out.print(m);
+				this.modifiedPrice = kb.nextFloat();
+				error = false;
+				
+			} catch (InputMismatchException e) {
+				
+				kb.next();
+				
+				System.out.println("\n** Incorrect input. You must enter a whole number **");
+				
+			}
+			
+		}
+		return this.modifiedPrice;	 			
 	}
 	
 	/**
@@ -240,7 +258,7 @@ public class Menu {
 	 */
 	public void submenu(int subMenuOption) {
 		
-		this.subMenuOption = requestMenuChoice("\nPress 1: Display Booking Detail\nPress 2: Change Display Day\nPress 3: Set Fee\n" + "Press 4: Exit Sub-menu\n\nYour selection: ");
+		this.subMenuOption = requestMenuChoice("\nPress 1: Display Booking Detail\nPress 2: Change Display Date\nPress 3: Set Fee\n" + "Press 4: Exit Sub-menu\n\nYour selection: ");
 		
 		while(this.subMenuOption != FOUR) {
 			
@@ -254,10 +272,14 @@ public class Menu {
 			}
 			
 			if(this.subMenuOption == THREE) {
+				
+				
 				break;
 			}
 			
-			this.subMenuOption = requestMenuChoice("\nPress 1: Display Booking Detail\nPress 2: Change Display Day\nPress 3: Set Fee\n"
+			System.out.println("\n*** enter a number from 1 - 4 ***");  
+			
+			this.subMenuOption = requestMenuChoice("\nPress 1: Display Booking Detail\nPress 2: Change Display Date\nPress 3: Set Fee\n"
 													+ "Press 4: Exit Sub-menu\n\nYour selection: ");
 
 		}
