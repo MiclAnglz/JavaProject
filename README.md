@@ -16,6 +16,10 @@
 
 <img width="444" alt="image" src="https://user-images.githubusercontent.com/103421610/201513943-db371ad8-2ab9-44db-bb68-183e2574ab7a.png">
 
+- The surname for a customer can be found in the customer.txt file after the customer_ID
+  
+  - <strong>column order for the customer.txt-</strong> customerID, surname, firstname, mobile, adddress, suburb, postcode 
+
 - A more detailed description of the project tasks can be found in the "ProjectBrief" folder. 
 
 # Java Project 
