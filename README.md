@@ -14,6 +14,8 @@
 
 - When making a booking you will notice that the program prompts you to enter a least 1 service code. This was part of the project brief. However, this can be canceled before exiting the program (see additional features below).
 
+<img width="444" alt="image" src="https://user-images.githubusercontent.com/103421610/201513943-db371ad8-2ab9-44db-bb68-183e2574ab7a.png">
+
 - A more detailed description of the project tasks can be found in the "ProjectBrief" folder. 
 
 # Java Project 
