@@ -35,41 +35,29 @@ orientated Java program to
 assist the business in keeping records of repair, service and
 installation.
 
-Upon execution, the program has to read data into arrays from 3 main files - a
-customer file, a booking file and a service file. The program also had to handle
-files with null values and different data types (int, float, doubles), as they crash the program if not processed correctly.
+Upon execution, the program is designed to populate arrays with data from three primary files: a customer file, a booking file, and a service file. The program also effectively manages files containing null values and diverse data types (integer, float, double) to prevent program crashes resulting from improper processing.
 
-The program then had to give the user the ability to interact with the data in
-the arrays and display the items in a meaningful way i.e.
+Subsequently, the program empowers users to interact with the arrayed data, presenting it in a meaningful manner through the following functionalities:
 
-• Allow the user to display customer booking
+- Enabling users to visualize customer bookings.
+- Facilitating user-initiated modifications to customer bookings and fee assignments.
+- Offering insights into customers' service histories, encompassing service prices, dates, customer IDs, and names.
+- Providing a mechanism for users to apply discounts as per customer requests.
 
-• Allow the user to change customer bookings and set fees
+The discount mechanism operates as follows:
 
-• Allow the user to display the customers service history, price of the service,
-date, customer id and name
+1. User inputs a value.
+2. If the value exceeds 10% of the service cost, the total service cost remains unaffected.
+3. If the value is 10% or less, the program accepts, updates, and securely stores the information in the booking text file.
 
-• Allow the user to apply discounts based on the customer's request. 
-   
-   <strong>How?</strong>
-   
-  - Accept a value from the customer. If that value is
-greater than 10% of the service cost, the total amount of the service is to
-remain. If the value is 10% or less, then the program is to accept, update and save the information 
-into the booking text file.
+Additional capabilities of the program include:
 
-• Allow the user to display full details of a service (service id , price and
-description)
+- Displaying comprehensive details of a service, including its ID, price, and description.
+- Enabling users to search for customer information using either surnames or mobile numbers.
+- Addressing the presence of multiple customers with the same name in the customer text file, displaying distinguishing information for clarity.
+- Empowering users to securely save or discard modifications made to the text file.
 
-• Allow the user to search customer information by surname or mobile
-number. 
-
-<strong>note: </strong>Many customers on the customer text file also had the same name.
-The program had to present all customers with the same
-name on the file and display the information that would differentiate one
-from the other
-
-• Allow the user to save or cancel changes made to text file.
+In essence, the program seamlessly handles data ingestion, user interaction, and data persistence while maintaining reliability and user-friendly functionality.
  
 <strong>Additional Features:</strong>
 
