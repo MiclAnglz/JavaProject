@@ -6,7 +6,7 @@
   
   <img width="176" alt="image" src="https://user-images.githubusercontent.com/103421610/201460154-578fdce4-118c-4737-a448-48a21aeef90b.png">
   
-  2) You will then be prompted to enter a "bookings file" to be processed. Choose a .txt files in the projects folder and enter the file name. (as below)
+  2) You will then be prompted to enter a "bookings file" to be processed. Choose a .txt files in the projects folder and enter the file name. (example below)
   
   <img width="113" alt="image" src="https://user-images.githubusercontent.com/103421610/201460356-a8f6ef3b-622a-4d95-b8b7-599f1203df50.png">
   
